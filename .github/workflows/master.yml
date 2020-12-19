@@ -27,6 +27,9 @@ jobs:
       run: |
         npm install
         npm run build --if-present
+        
+    - name: Create cname file
+      run: echo 'www.andradam.com' > dist/CNAME
       env:
         CI: true
     - name: Deploy
