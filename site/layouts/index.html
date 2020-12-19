@@ -1,9 +1,32 @@
 {{ define "main" }}
 
-<h1 class="mb-0">Welcome to Andradam</h1>
 
-<h3>We are provide latest news update.</a>!</h3>
+<div class="jumbotron jumbotron-fluid">
+  <div class="container text-center pt-5" style="height: 100vh;">
+    <h1>Welcome to Andradam</h1>
 
-<button class="btn btn-primary">Touch with us</button>
+    <h3>We are provide latest news update.</a>!</h3>
+
+    <button class="btn btn-primary pt-2">Touch with us</button>
+  </div>
+</div>
+
+
+<div class="jumbotron text-center">
+  <h1>Company</h1> 
+  <p>We specialize in blablabla</p> 
+  <form class="form-inline">
+    <div class="input-group">
+      <input type="email" class="form-control" size="50" placeholder="Email Address" required>
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-danger">Subscribe</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+
+
+
 
 {{ end }}
